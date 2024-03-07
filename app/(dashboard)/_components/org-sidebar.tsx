@@ -33,7 +33,7 @@ export const OrgSidebar = () => {
             "font-semibold text-2xl",
             font.className,
           )}>
-            Board
+            CoCreate
           </span>
         </div>
       </Link>
@@ -81,7 +81,7 @@ export const OrgSidebar = () => {
             query: { favorites: true }
           }}>
             <Star className="h-4 w-4 mr-2" />
-            Favorite boards
+            Favourite boards
           </Link>
         </Button>
       </div>
